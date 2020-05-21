@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>nodeid</key><string>26e639c3-6beb-4ad2-b88b-0d23d8b794de</string>
+  <key>modified_time</key><integer>1589141973</integer>
+  <key>expanded2</key><true/>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1589141973</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>icon</key><string>folder.png</string>
+  <key>title</key><string>mssql</string>
+  <key>version</key><integer>6</integer>
+  <key>order</key><integer>13</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>
