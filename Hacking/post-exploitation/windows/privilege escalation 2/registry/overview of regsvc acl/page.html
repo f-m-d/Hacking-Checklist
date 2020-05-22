@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Overview of regsvc ACL</title>
+</head><body><b><u><div style="text-align: center"><span style="font-size: 20pt">Overview of regsvc ACL</span></div></u></b><br/>
+<br/>
+<br/>
+<span style="font-size: 15pt">Here we are looking for a registry service, and we are looking for a full control over a register key:<br/>
+<b>We can compile a malicious executable (in .c) and make this executable run a command.<br/>
+(like, add an user to the administrator group)<br/>
+<br/>
+<br/>
+</b>First of all, we need to see the ACL of the Machine (use Powershell)<br/>
+<b>Get-Acl -Path hklm:\System\CurrentControlSet\services\regsvc | fl<br/>
+<br/>
+We can see that we have FullControl !!<br/>
+<img src="1.png" /><br/>
+</b></span></body></html>

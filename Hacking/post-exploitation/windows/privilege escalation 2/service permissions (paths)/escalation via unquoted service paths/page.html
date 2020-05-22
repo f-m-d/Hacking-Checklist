@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Escalation via Unquoted Service Paths</title>
+</head><body><b><u><div style="text-align: center"><span style="font-size: 20pt">Escalation via Unquoted Service Paths</span></div></u></b><br/>
+<br/>
+<br/>
+<span style="font-size: 15pt">Unquoted Service Paths is for path that have a space within but are not quoted:<br/>
+this will proc some issues<br/>
+<br/>
+<br/>
+In PowerUp, we can see some examples:<br/>
+</span><img src="1.png" /><span style="font-size: 15pt"><br/>
+</span><span style="font-size: 15pt"><br/>
+</span><img src="1 2.png" /><br/>
+<br/>
+<br/>
+<span style="font-size: 15pt"><br/>
+Because that path is unquoted, Windows will look for elements to run like:<br/>
+<b>C:\Program, C:\Program File\Unquoted etc.</b><br/>
+<br/>
+</span><span style="font-size: 15pt">For the attack, we are going to insert a file called <b>Common </b>into <b>C:\Program Files\Unquoted Path Service\</b></span><br/>
+<img src="1 3.png" /><br/>
+<br/>
+<br/>
+<br/>
+<span style="font-size: 15pt">To get started, we need to run a MSFVenom/Metasploit combo:<br/>
+</span><img src="1 4.png" /><span style="font-size: 15pt"><br/>
+</span><span style="font-size: 15pt"><br/>
+</span><img src="1 5.png" /><span style="font-size: 15pt"><br/>
+</span><span style="font-size: 15pt"><br/>
+<br/>
+Pass the file with Python/Web Browser combo, and save it into<br/>
+<b>C:\Program Files\Unquoted Path Service\<br/>
+</b></span><img src="1 6.png" /><br/>
+<br/>
+<br/>
+<br/>
+<span style="font-size: 15pt">Now, if we start the unquotedsvc, we should get a shell back!!<br/>
+<img src="1 8.png" /><br/>
+</span><br/>
+<img src="1 9.png" /><br/>
+<br/>
+<br/>
+<span style="font-size: 15pt">We got a <b>NT AUTHORITY\SYSTEM </b>because the path is run as Administrator</span></body></html>

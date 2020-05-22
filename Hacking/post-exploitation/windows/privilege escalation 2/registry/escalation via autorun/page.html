@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Escalation via Autorun</title>
+</head><body><b><u><div style="text-align: center"><span style="font-size: 20pt">Escalation via Autorun<br/>
+</span></div></u></b><br/>
+<br/>
+<span style="font-size: 15pt">Back to our Kali Linux, we need to generate our payload with MSFVenom<br/>
+</span><span style="font-size: 15pt"><b>(Remember to set your IP and PORT, even the ARCHITECTURE if needed)</b></span><br/>
+<img src="1.png" /><br/>
+<br/>
+<br/>
+<span style="font-size: 15pt">We need to set the handler too, we are going to use Metasploit handler:<br/>
+</span><img src="1 2.png" /><br/>
+<br/>
+<br/>
+<br/>
+<span style="font-size: 15pt">Now, to move our .exe file to our windows, we are going to use the <b><u>python/certutil</u>&nbsp;combo:<br/>
+</b></span><br/>
+<br/>
+<b><span style="font-size: 15pt">We need to overwrite our autorun program with out payload:<br/>
+</span></b><span style="font-size: 15pt"><b>Download and save it into the Autorun folder and overwrite it.</b><br/>
+(If you try to download and next to move and overwrite, it will ask for an Admin password:<br/>
+If you download with Internet Explorer and directly save it!!!)<br/>
+</span><img src="1 3.png" /><span style="font-size: 15pt"><br/>
+</span><span style="font-size: 15pt"><br/>
+<br/>
+Now, if we <b>disconnect, reconnect and log in as an Administrator:</b><br/>
+The autorun file started and we got the shell!<br/>
+</span><img src="1 5.png" /><br/>
+<br/>
+<img src="2020-05-07 18_01_28-window.png" /><br/>
+<br/>
+<img src="1 4.png" /><br/>
+</body></html>
