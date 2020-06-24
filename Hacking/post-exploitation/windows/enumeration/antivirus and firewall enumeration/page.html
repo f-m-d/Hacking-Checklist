@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Antivirus and Firewall Enumeration</title>
+</head><body><b><u><div style="text-align: center"><span style="font-size: 20pt">Antivirus and Firewall Enumeration</span></div></u></b><span style="font-size: 15pt"><br/>
+</span><span style="font-size: 15pt"><br/>
+<br/>
+We will use the <b>Service Control</b>&nbsp;to query for services:<br/>
+<br/>
+One service to check is Windows Defender (windefend)<br/>
+<img src="1.png" /><br/>
+<br/>
+<br/>
+If you want to search trough all the services, you can:<br/>
+You can search trough all the services here for an antivirus<br/>
+<img src="1 2.png" /><br/>
+<br/>
+<br/>
+For Firewalls, we can try more commands:<br/>
+<b>netsh advfirewall firewall dump<br/>
+</b>(sometimes do not return anything)<br/>
+<b><br/>
+</b>Or the older:<b><br/>
+</b><b>netsh firewall show state</b><br/>
+</span><img src="1 3.png" /><br/>
+<br/>
+<br/>
+<span style="font-size: 15pt">To look for the Firewall configuration, you can run:</span><br/>
+<span style="font-size: 15pt"><b>netsh firewall show config<br/>
+</b></span><img src="1 4.png" /></body></html>

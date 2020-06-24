@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>System Enumeration</title>
+</head><body><b><u><div style="text-align: center"><span style="font-size: 20pt">System Enumeration<br/>
+</span></div></u></b><span style="font-size: 15pt"><br/>
+<br/>
+Once we are into a Windows Machine, we can try to enumerate even more the target machine<br/>
+<br/>
+A nice command to get started is <b>getsysteminfo<br/>
+</b></span><img src="1.png" /><b><span style="font-size: 15pt"><br/>
+</span></b><b><span style="font-size: 15pt"><br/>
+<br/>
+</span></b><span style="font-size: 15pt">We can use some one liner to have a more precise view:<br/>
+<b>systeminfo | findstr /B /C:"OS Name" /C:"OS Version" /C:"System Type"<br/>
+</b></span><img src="1 2.png" /><br/>
+<br/>
+<br/>
+<span style="font-size: 15pt">Another thing we can do is to check the patching level:<br/>
+We can do that with <b>Windows Management Instrumentation,</b>&nbsp;we will search for<br/>
+<b>Quick Fix Engineering</b>&nbsp;.<br/>
+(KBID stand for Knowledge Based ID)<br/>
+</span><img src="1 3.png" width="950" height="85" /><br/>
+<br/>
+<br/>
+<br/>
+<span style="font-size: 15pt">Even here we can do a useful oneliner to grep the output:<br/>
+<b>qfe get Caption,Description,HotFixID,InstalledOn<br/>
+</b></span><img src="1 4.png" /><br/>
+<br/>
+<br/>
+<span style="font-size: 15pt">We can even list the drives, always using <b>wmic logicaldisk</b>:<br/>
+The output is really messy, so we better grep it.<br/>
+</span><span style="font-size: 15pt"><b>wmic logicaldisk get Caption,Description,ProviderName</b></span><br/>
+<img src="1 5.png" /><br/>
+<br/>
+<br/>
+<br/>
+</body></html>
