@@ -2,6 +2,7 @@
 <node>
 <version>6</version>
 <dict>
+  <key>title_fgcolor</key><string>#000000</string>
   <key>title</key><string>Resources</string>
   <key>nodeid</key><string>3c094fcc-b771-4520-884b-c1187261f950</string>
   <key>modified_time</key><integer>1589451181</integer>

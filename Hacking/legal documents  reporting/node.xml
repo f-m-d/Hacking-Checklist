@@ -2,6 +2,7 @@
 <node>
 <version>6</version>
 <dict>
+  <key>title_fgcolor</key><string>#000000</string>
   <key>expanded</key><false/>
   <key>duplicate_of</key><string>86ece829-baa9-412e-9021-3d84e5dc0e2f</string>
   <key>nodeid</key><string>8ef873b4-ee64-481c-8c74-110a2d5d2ada</string>

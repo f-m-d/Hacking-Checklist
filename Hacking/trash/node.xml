@@ -2,6 +2,7 @@
 <node>
 <version>6</version>
 <dict>
+  <key>title_fgcolor</key><string>#000000</string>
   <key>expanded</key><false/>
   <key>title</key><string>Trash</string>
   <key>nodeid</key><string>bfe1dde5-2de9-4ce0-aba8-d50f699bafb1</string>
