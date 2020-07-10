@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Subdomains fuzzing</title>
+</head><body><a href="https://chickenpwny.github.io/webapp/wfuzz/">https://chickenpwny.github.io/webapp/wfuzz/</a><br/>
+<br/>
+<br/>
+<span style="font-size: 17pt"><b>If a subdomain is not valid, try to add it to the /etc/hosts file (E.G. dev.tesla.com)</b></span><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+We can use wfuzz:<br/>
+<b>wfuzz -c -f sub-fighter -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u "http://cmess.thm" -H "Host: FUZZ.cmess.thm"<br/>
+<br/>
+BE CAREFUL: IF YOU DO THAT AND THE SITE REDIRECT THE ERRORS, YOU WILL GET A LOOOOOOOOOT OF 200 STATUS PAGES,<br/>
+</b><br/>
+Add one of this command:<br/>
+<div style="text-align: left"><span style="font-size: 12pt"><span style="font-family: Monaco"> --hc/hl/hw/hh N[,N]+        : Hide responses with the specified code/lines/words/chars (Use BBB for taking values from baseline)</span></span></div><br/>
+<span style="font-family: Monaco"><span style="font-size: 12pt"><div style="text-align: left">&nbsp;--sc/sl/sw/sh N[,N]+        : Show responses with the specified code/lines/words/chars (Use BBB for taking values from baseline)</div></span></span><br/>
+<div style="text-align: left"><span style="font-size: 12pt"><span style="font-family: Monaco"> --ss/hs regex       &#09;&#09;  : Show/hide responses with the specified regex within the content</span></span></div><br/>
+<span style="font-family: Monaco"><span style="font-size: 12pt"><div style="text-align: left">&nbsp;--filter &lt;filter&gt;       &#09;&#09; &nbsp;: Show/hide responses using the specified filter expression (Use BBB for taking values from baseline)</div></span></span><br/>
+<div style="text-align: left"><span style="font-size: 12pt"><span style="font-family: Monaco"> --prefilter &lt;filter&gt;       &#09; &nbsp;: Filter items before fuzzing using the specified expression.</span></span></div>&nbsp; <br/>
+<br/>
+<img src="wfuzz.png" /><br/>
+<br/>
+<br/>
+</body></html>
