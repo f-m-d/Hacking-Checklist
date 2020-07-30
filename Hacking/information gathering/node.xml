@@ -3,7 +3,7 @@
 <version>6</version>
 <dict>
   <key>title_fgcolor</key><string>#000000</string>
-  <key>expanded</key><true/>
+  <key>expanded</key><false/>
   <key>nodeid</key><string>05f72c14-6ae9-489c-856f-0778b9c04d4c</string>
   <key>modified_time</key><integer>1594874089</integer>
   <key>content_type</key><string>text/xhtml+xml</string>
