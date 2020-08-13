@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>nist 800-115.pdf</string>
+  <key>nodeid</key><string>4ed8fb29-5119-4769-8675-e4e8fcadacf9</string>
+  <key>modified_time</key><integer>1597284567</integer>
+  <key>version</key><integer>6</integer>
+  <key>payload_filename</key><string>nist 800-115.pdf</string>
+  <key>content_type</key><string>application/pdf</string>
+  <key>created_time</key><integer>1597284567</integer>
+  <key>order</key><integer>0</integer>
+</dict>
+</node>

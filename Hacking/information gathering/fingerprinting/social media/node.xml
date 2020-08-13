@@ -6,7 +6,7 @@
   <key>title</key><string>Social Media</string>
   <key>nodeid</key><string>893a3151-2673-4d9e-a148-7ed9be86af2a</string>
   <key>modified_time</key><integer>1589208063</integer>
-  <key>expanded2</key><false/>
+  <key>expanded2</key><true/>
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>text/xhtml+xml</string>
   <key>created_time</key><integer>1589208063</integer>

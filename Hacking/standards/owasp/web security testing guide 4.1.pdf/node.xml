@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Web Security Testing Guide 4.1.pdf</string>
+  <key>nodeid</key><string>f1334d61-f3b9-41ee-9059-686afd8eea5a</string>
+  <key>modified_time</key><integer>1597284774</integer>
+  <key>version</key><integer>6</integer>
+  <key>payload_filename</key><string>web security testing guide 4.1.pdf</string>
+  <key>content_type</key><string>application/pdf</string>
+  <key>created_time</key><integer>1597284774</integer>
+  <key>order</key><integer>0</integer>
+</dict>
+</node>
