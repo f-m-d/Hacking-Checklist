@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>ISSAF</string>
+  <key>nodeid</key><string>b05d4f62-4b8c-4cd8-8daa-529790b598d7</string>
+  <key>modified_time</key><integer>1598293167</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1598292937</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>3</integer>
+  <key>info_sort</key><string>order</string>
+  <key>icon</key><string>folder.png</string>
+</dict>
+</node>
