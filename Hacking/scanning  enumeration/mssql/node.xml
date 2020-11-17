@@ -4,7 +4,7 @@
 <dict>
   <key>nodeid</key><string>26e639c3-6beb-4ad2-b88b-0d23d8b794de</string>
   <key>modified_time</key><integer>1589141973</integer>
-  <key>expanded2</key><true/>
+  <key>expanded2</key><false/>
   <key>content_type</key><string>text/xhtml+xml</string>
   <key>created_time</key><integer>1589141973</integer>
   <key>info_sort_dir</key><integer>1</integer>

@@ -5,7 +5,7 @@
   <key>title</key><string>fmpt</string>
   <key>nodeid</key><string>fdf90b45-a58a-4ef7-a070-5178cb15d105</string>
   <key>modified_time</key><integer>1589132360</integer>
-  <key>expanded2</key><true/>
+  <key>expanded2</key><false/>
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>text/xhtml+xml</string>
   <key>created_time</key><integer>1589132360</integer>
