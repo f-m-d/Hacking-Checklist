@@ -17,5 +17,14 @@ DNS Request (you can choose the request with -t option):<ul><li><b>SOA (State of
 <li><b>MX (Mail Exchange) [1035]:</b>&nbsp;Ask the DNS about which server is in charge to receive and handle emails and where the emails are routed</li>
 <li><b>CNAME (Canonical Name) [RFC 1035]</b>: Ask for some Domain aliases</li>
 <li><b>CAA (Certificate Authority Authorization) [RFC 6844]:</b></li>
+<li><b>PTR (Pointer Record) [RFC 1035]: </b>Pointer to a canonical name, it is used for reverse mapping</li>
+<li><b>TXT (Text Record) [RFC 1035] : </b>Record with some kind of human-readble information, commony used to add more info about a DNS</li>
+</ul>
+<br/>
+<br/>
+<b>Zone Transfer (ZT):</b>&nbsp;Mechanism used for replicate the DB from a Master Name Server to a Slave Name Server<br/>
+<br/>
+How to make a zone transfer:<ul><li>Use host &nbsp;on a domain and you will get the DNS</li>
+<li>Use the -l option with the domain and the DNS: you will get a zone transfer!</li>
 </ul>
 </body></html>
