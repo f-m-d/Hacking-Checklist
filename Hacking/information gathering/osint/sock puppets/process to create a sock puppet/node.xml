@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Process to create a Sock Puppet</string>
+  <key>nodeid</key><string>1e6506aa-b39b-48b8-b421-2a7d7f64e6e9</string>
+  <key>modified_time</key><integer>1606748664</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1606746310</integer>
+  <key>order</key><integer>1</integer>
+</dict>
+</node>
