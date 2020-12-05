@@ -3,7 +3,7 @@
 ### A Simple Hacking Checklist 👾
 
 [![Website](https://img.shields.io/website?label=Hackingfacile.it&style=for-the-badge&url=https%3A%2F%2Fhackingfacile.it)](https://hackingfacile.it)
-[![Twitter Follow](https://img.shields.io/twitter/follow/facile_hacking?label=Follow%20Hacking%20Facile%21&style=for-the-badge)](https://twitter.com/facile_hacking)
+[![Twitter Follow](https://img.shields.io/twitter/follow/facile_hacking?label=Follow%20on%20Twitter!&style=for-the-badge)](https://twitter.com/facile_hacking)
 
 
 ## Here you can find some useful items in this checklist:
