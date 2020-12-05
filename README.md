@@ -44,7 +44,7 @@
 
 [website]: https://hackingfacile.it
 [course]: http://vsCodeHero.com
-[twitter]: https://twitter.com/codeSTACKr
+[twitter]: https://twitter.com/facile_hacking
 [youtube]: https://youtube.com/codeSTACKr
 [instagram]: https://www.instagram.com/hackingfacile/
 [linkedin]: https://linkedin.com/in/codeSTACKr
