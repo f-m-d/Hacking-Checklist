@@ -2,12 +2,15 @@
 <node>
 <version>6</version>
 <dict>
+  <key>duplicate_of</key><string>63dd5992-f7dd-4bab-a82f-48636d30c57d</string>
   <key>title</key><string>HaveIBeenPWNED</string>
-  <key>nodeid</key><string>63dd5992-f7dd-4bab-a82f-48636d30c57d</string>
+  <key>nodeid</key><string>33bad059-198f-439e-8bfb-3a442b713f07</string>
   <key>modified_time</key><integer>1605604002</integer>
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>text/xhtml+xml</string>
   <key>created_time</key><integer>1605603878</integer>
-  <key>order</key><integer>4</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>0</integer>
+  <key>info_sort</key><string>order</string>
 </dict>
 </node>

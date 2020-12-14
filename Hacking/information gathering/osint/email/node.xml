@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>expanded</key><true/>
+  <key>title</key><string>Email</string>
+  <key>nodeid</key><string>90d2a9a6-47ac-4eb9-b39a-36506590901c</string>
+  <key>modified_time</key><integer>1607980989</integer>
+  <key>expanded2</key><true/>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1607980989</integer>
+  <key>order</key><integer>2</integer>
+  <key>icon</key><string>folder.png</string>
+</dict>
+</node>
