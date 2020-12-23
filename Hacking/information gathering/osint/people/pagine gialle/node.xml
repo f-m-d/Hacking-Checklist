@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Pagine Gialle</string>
+  <key>nodeid</key><string>eb7bf05a-660f-423d-aaf1-f1a2ca186019</string>
+  <key>modified_time</key><integer>1608732986</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1608732976</integer>
+  <key>order</key><integer>1</integer>
+</dict>
+</node>
