@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Snapchat</string>
+  <key>nodeid</key><string>ac329550-bcb2-487f-a46a-502d3334a524</string>
+  <key>modified_time</key><integer>1608933760</integer>
+  <key>expanded2</key><false/>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1608933760</integer>
+  <key>order</key><integer>3</integer>
+  <key>icon</key><string>folder.png</string>
+</dict>
+</node>

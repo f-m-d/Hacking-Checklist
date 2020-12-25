@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Instagram</string>
+  <key>nodeid</key><string>604917a5-3db1-4a22-b2e5-e65aa644bec4</string>
+  <key>modified_time</key><integer>1608932606</integer>
+  <key>expanded2</key><false/>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1608932606</integer>
+  <key>order</key><integer>2</integer>
+  <key>icon</key><string>folder.png</string>
+</dict>
+</node>

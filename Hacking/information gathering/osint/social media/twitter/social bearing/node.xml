@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Social Bearing</string>
+  <key>nodeid</key><string>61a50288-335c-449c-8420-744bada634d0</string>
+  <key>modified_time</key><integer>1608928146</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1608928126</integer>
+  <key>order</key><integer>0</integer>
+</dict>
+</node>
