@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Linkedin</string>
+  <key>nodeid</key><string>4957c5aa-fdab-483c-a561-6f9eb5abdd2e</string>
+  <key>modified_time</key><integer>1609066808</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1608993024</integer>
+  <key>order</key><integer>5</integer>
+  <key>icon</key><string>folder.png</string>
+</dict>
+</node>
