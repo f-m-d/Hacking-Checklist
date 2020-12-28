@@ -2,16 +2,17 @@
 <node>
 <version>6</version>
 <dict>
-  <key>title</key><string>Domains</string>
+  <key>expanded</key><false/>
   <key>nodeid</key><string>8ac99f8e-47d5-4dd2-9659-f2233fd6776f</string>
   <key>modified_time</key><integer>1603884665</integer>
   <key>expanded2</key><false/>
-  <key>version</key><integer>6</integer>
   <key>content_type</key><string>text/xhtml+xml</string>
   <key>created_time</key><integer>1603884665</integer>
   <key>info_sort_dir</key><integer>1</integer>
+  <key>icon</key><string>folder.png</string>
+  <key>title</key><string>Domains</string>
+  <key>version</key><integer>6</integer>
   <key>order</key><integer>1</integer>
   <key>info_sort</key><string>order</string>
-  <key>icon</key><string>folder.png</string>
 </dict>
 </node>
