@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>recon-ng</string>
+  <key>nodeid</key><string>bc3c5d50-d423-45ce-9214-18fe3980b310</string>
+  <key>modified_time</key><integer>1609259104</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1609256820</integer>
+  <key>order</key><integer>1</integer>
+</dict>
+</node>

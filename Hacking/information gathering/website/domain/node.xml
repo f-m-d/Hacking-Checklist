@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>expanded</key><false/>
+  <key>duplicate_of</key><string>76e509fc-8b1b-452a-95ba-c6f2eed7813f</string>
+  <key>nodeid</key><string>099dd1ae-2e3c-4032-b8dd-b025f9cd43bb</string>
+  <key>modified_time</key><integer>1589453295</integer>
+  <key>expanded2</key><false/>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1589453295</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>icon</key><string>folder-blue.png</string>
+  <key>title</key><string>Domain</string>
+  <key>version</key><integer>6</integer>
+  <key>order</key><integer>0</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Maltego</string>
+  <key>nodeid</key><string>968bbb53-7454-46ed-89e9-aa832fd469c0</string>
+  <key>modified_time</key><integer>1609260420</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1609259339</integer>
+  <key>order</key><integer>2</integer>
+</dict>
+</node>

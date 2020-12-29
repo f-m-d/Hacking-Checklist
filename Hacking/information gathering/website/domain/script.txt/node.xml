@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>duplicate_of</key><string>9813a729-5ab7-4251-a53e-a6a2008ae269</string>
+  <key>title</key><string>script.txt</string>
+  <key>nodeid</key><string>c541993a-c0c0-4c63-aaf9-aa2e4e33ba10</string>
+  <key>modified_time</key><integer>1609256657</integer>
+  <key>version</key><integer>6</integer>
+  <key>payload_filename</key><string>mhe6zxvt.txt</string>
+  <key>content_type</key><string>text/plain</string>
+  <key>created_time</key><integer>1587740920</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>1</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>
