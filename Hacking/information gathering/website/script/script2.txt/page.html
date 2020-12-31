@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>script2.txt</title>
+</head><body>#!/bin/bash<br/>
+<br/>
+domain=$1<br/>
+RED="\033[1;31m"<br/>
+RESET="\033[0m"<br/>
+<br/>
+info_path=$domain/info<br/>
+subdomain_path=$domain/subdomains<br/>
+screenshot_path=$domain/screenshots<br/>
+<br/>
+if [ ! -d "$domain" ];then<br/>
+&nbsp; &nbsp; mkdir $domain<br/>
+fi<br/>
+<br/>
+if [ ! -d "$info_path" ];then<br/>
+&nbsp; &nbsp; mkdir $info_path<br/>
+fi<br/>
+<br/>
+if [ ! -d "$subdomain_path" ];then<br/>
+&nbsp; &nbsp; mkdir $subdomain_path<br/>
+fi<br/>
+<br/>
+if [ ! -d "$screenshot_path" ];then<br/>
+&nbsp; &nbsp; mkdir $screenshot_path<br/>
+fi<br/>
+<br/>
+echo -e "${RED} [+] Checkin' who it is...${RESET}"<br/>
+whois $1 &gt; $info_path/whois.txt<br/>
+<br/>
+echo -e "${RED} [+] Launching subfinder...${RESET}"<br/>
+subfinder -d $domain &gt; $subdomain_path/found.txt<br/>
+<br/>
+echo -e "${RED} [+] Running assetfinder...${RESET}"<br/>
+assetfinder $domain | grep $domain &gt;&gt; $subdomain_path/found.txt<br/>
+<br/>
+#echo -e "${RED} [+] Running Amass. This could take a while...${RESET}"<br/>
+#amass enum -d $domain &gt;&gt; $subdomain_path/found.txt<br/>
+<br/>
+echo -e "${RED} [+] Checking what's alive...${RESET}"<br/>
+cat $subdomain_path/found.txt | grep $domain | sort -u | httprobe -prefer-https | grep https | sed 's/https\?:\/\///' | tee -a $subdomain_path/alive.txt<br/>
+<br/>
+echo -e "${RED} [+] Taking dem screenshotz...${RESET}"<br/>
+gowitness file -f $subdomain_path/alive.txt -P $screenshot_path/ --no-http</body></html>
